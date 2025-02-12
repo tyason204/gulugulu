@@ -75,7 +75,7 @@ const questions = [
     {
         question: "Whats one thing i cant live without it ?",
         correctAnswers: ["Lana", "my GF", "babe ofc"],
-        answersß: ["Lana", "my GF", "babe ofc"],
+        answers: ["Lana", "my GF", "babe ofc"],
         type: "choice"
     }, 
     {
