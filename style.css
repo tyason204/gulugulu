@@ -199,7 +199,7 @@ h1 {
 /* Mobile Styles */
 @media (max-width: 768px) {
   .hello-kitty {
-    width: 80px; /* Smaller size for mobile */
+    width: 50px; /* Smaller size for mobile */
   }
 }
 
