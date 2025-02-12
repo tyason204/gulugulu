@@ -68,6 +68,22 @@ const questions = [
         type: "choice"
     },
     {
+        question: "One thing you dont like about me",
+        correctAnswers: ["*"],
+        type: "text"
+    },
+    {
+        question: "Whats one thing i cant live without it ?",
+        correctAnswers: ["Lana", "my GF", "babe ofc"],
+        answer: ["Lana", "my GF", "babe ofc"],
+        type: "choice"
+    }, 
+    {
+        question: "What one princess dress would you choose for me?( IF SOMEHOW YOU MAkE ME AGREEE)",
+        correctAnswers: ["*"],
+        type: "text"
+    },
+    {
         question: "Describe one of our best moments that will stay in your heart?",
         correctAnswers: ["*"],
         type: "text"
