@@ -175,6 +175,7 @@ h1 {
   font-family: "Bona Nova SC", serif;
 }
 
+
 /* Hello Kitty Falling Animation */
 .hello-kitty-container {
   position: fixed;
@@ -189,10 +190,17 @@ h1 {
 .hello-kitty {
   position: absolute;
   top: -10%;
-  width: 200px; /* Adjust the size as needed */
+  width: 100px; /* Adjust the size as needed */
   height: auto; /* Keep the aspect ratio */
   animation: fallKitty linear infinite; /* Apply falling animation */
   user-select: none; /* Prevent image selection */
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .hello-kitty {
+    width: 80px; /* Smaller size for mobile */
+  }
 }
 
 @keyframes fallKitty {
@@ -204,8 +212,39 @@ h1 {
     top: 110%; /* End below the screen */
     transform: rotate(360deg); /* Rotate the Hello Kitty image while falling */
   }
-}
 
+  .container {
+    width: 90%; /* Make the container take up 90% of the screen width */
+    max-width: 300px; /* Set a maximum width for smaller screens */
+    padding: 15px; /* Reduce padding to save space */
+    margin: 20px auto; /* Center the container */
+  }
+
+  h1 {
+    font-size: 2em; /* Adjust heading size for smaller screens */
+  }
+
+  #question {
+    font-size: 1.2em; /* Adjust question text size */
+  }
+
+  .answers button {
+    font-size: 1em; /* Adjust button text size */
+    padding: 8px 16px; /* Adjust button padding */
+    margin: 5px; /* Reduce button margin */
+  }
+
+  #text-input {
+    font-size: 1.2em; /* Adjust input text size */
+    width: 90%; /* Make input wider */
+  }
+
+  #love-letter {
+    font-size: 1.5em; /* Reduce love letter text size */
+    padding: 20px; /* Reduce padding */
+    width: 95%; /* Make love letter wider */
+  }
+}
 /* Random positions and delays for Hello Kitty images */
 .hello-kitty:nth-child(1) {
   left: 5%;
@@ -308,16 +347,3 @@ h1 {
   animation-duration: 9s;
   animation-delay: 8s;
 }
-
-.hello-kitty:nth-child(14) {
-  left: 90%;
-  animation-duration: 9s;
-  animation-delay: 6s;
-}
-
-.hello-kitty:nth-child(14) {
-  left: 95%;
-  animation-duration: 9s;
-  animation-delay: 5s;
-}
-/* You can continue adding more Hello Kitty images by copying and adjusting the styles */
