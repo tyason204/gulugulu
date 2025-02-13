@@ -34,7 +34,7 @@ body {
 /* Heading */
 h1 {
   color: #df5260; /* Vibrant pink */
-  font-size: 2.5em;
+  font-size: 1em;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Soft shadow */
   
   font-weight: 700; /* Bold */
