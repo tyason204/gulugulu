@@ -73,12 +73,6 @@ const questions = [
         type: "text"
     },
     {
-        question: "Whats one thing i cant live without it ?",
-        correctAnswers: ["Lana", "my GF", "babe ofc"],
-        answers: ["Lana", "my GF", "babe ofc"],
-        type: "choice"
-    }, 
-    {
         question: "What one princess dress would you choose for me?( IF SOMEHOW YOU MAkE ME AGREEE)",
         correctAnswers: ["*"],
         type: "text"
